@@ -5,6 +5,9 @@
     display: flex;
     flex-direction: column ;
     align-items: center ;
+    background: url(mountain-magic-hour.jpg);
+    background-size: cover;
+    background-position: center;
  }
 
  .weatherForm{
@@ -37,23 +40,29 @@
 
  .card{
     background: linear-gradient(180deg, hsl(210,100%,75%),hsl(40,100%,75% ));
+    border-radius: 10px;
     padding: 50px ;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     min-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+  
+    
  }
   
  h1{
    font-size: 3.5rem;
    margin-top: 0;
    margin-bottom: 25px;
+
  }
 
  p{
    font-size: 1.5rem;
    margin: 6px 0px ;
+
  }
 
  .cityDisplay,.tempDisplay{
@@ -61,22 +70,26 @@
    font-weight: bold;
    color: rgba(0, 0, 0, 0.75);
    margin-bottom: 25px;
+
  }
 
  .humidityDisplay{
    font-weight: bold;
    margin-bottom: 25px ;
+
  }
 
  .descDisplay{
    font-style: italic;
    font-weight: bold;
    font-size: 2rem;
+
  }
 
  .weatherEmoji{
    margin: 0;
    font-size: 7.5rem;
+
  }
 
  .errorDisplay{
